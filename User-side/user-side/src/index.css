@@ -1,0 +1,317 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.logo-height{
+  height: 100%;
+  width: 70%;
+}
+
+.header-bg{
+  background-color: whitesmoke;
+}
+
+.text-color-header{
+  /* background: #2405D2; */
+  /* background: linear-gradient(to right, #2405D2 0%, #DD2100 67%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-center{
+  font-size: calc(var(--font-base-size, 16)*1px);
+  font-weight: 500;
+}
+
+.icon-color{
+  color: green;
+}
+
+/* header end */
+
+/* main-banner start */
+ 
+.mainbannner-iamges{
+  width: 100%;
+  max-height: 650px;
+}
+
+.welcome-font{
+  font-size:42px;
+  font-family: sans-serif;
+}
+
+.p-font{
+
+  font-size:15px;
+  font-family:sans-serif;
+
+}
+
+/* main-banner end */
+
+
+
+/* new collections part */
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 40%;
+  background-color: #146321; /* Matches the color from the image */
+  color: white;
+  padding: 2rem;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.menu-item.active {
+  text-decoration: underline;
+}
+
+.content {
+  width: 70%;
+  padding: 2rem;
+}
+
+.new-collection-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.collection-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  text-align: center;
+  width: 30%;
+}
+
+.item-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.item-description {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.shop-button {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  background-color: #146321;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.shop-button:hover {
+  background-color: #146321; /* Darken button on hover */
+}
+
+
+/* promo section start */
+
+.promo-section {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.promo-section-color{
+  background-color: #f9f9f9 ;
+}
+.promo-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.promo-text h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.promo-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.promo-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.shop-button {
+  padding: 10px 20px;
+  background-color: #146321;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.promo-image {
+  max-width:400px;
+  margin-left: 20px;
+}
+
+/* products start */
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-card {
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #146321;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #146321;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+/* women part */
+
+.product-listing {
+  display: flex;
+}
+
+.filters {
+  width: 20%;
+  padding: 10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+}
+
+
+.women-addto-cart-btn{
+  background-color: #146321;
+}
+.product-card {
+  width:33.33%;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+
+  /* padding: 10px; */
+}
+
+
+/* story part */
+
+.banner-width-story{
+  width: 1240px;
+}
+
+
+/* contact form */
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.contact-form {
+  flex: 2;
+  margin-right: 2rem;
+}
+
+.contact-info {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.submit-btn {
+  background-color: #146321;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #146321;
+}
+
+.contact-info h4 {
+  margin-top: 1rem;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #146321;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
